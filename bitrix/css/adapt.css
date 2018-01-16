@@ -1,0 +1,619 @@
+
+
+@media (min-width: 760px) and (max-width: 992px) {
+	
+	.logo {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.list-info {
+		flex-direction: column;
+	}
+
+	header .row {
+		align-items: center;
+	}
+
+	.count-item {
+		margin-right: 15px;
+	}
+
+	.main-left h1 {
+		font-size: 3rem;
+	}
+
+	.main-left p {
+		margin-bottom: 50px;
+	}
+
+	.cloud-wrapper img {
+		left: -245px;
+		top: -90px;
+	}
+
+	.right-link {
+		flex-direction: column;
+	}
+
+	.try {
+		width: 260px;
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	.count-item:last-child {
+		margin-left: 0;
+	}
+
+	.main-info {
+	    align-items: center;
+	    flex-direction: column;
+	}
+
+	.main-right .col-6 {
+		display: flex;
+	    align-items: flex-end;
+	}
+
+	.left-list img {
+		width: 125%;
+	    position: relative;
+	    top: 0;
+	    left: -70px;
+	}
+
+	.list-info {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.line-menu img {
+		display: none;
+	}
+
+	.menu-item {
+		width: 120px !important;
+	}
+
+	.slider-nav > .slick-list > .slick-track {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.slide-left h2 {
+		font-size: 2rem;
+	}
+
+	.mytable {
+		margin-left: 2px;
+	}
+
+	.ipad img {
+		left: -320px;
+	}
+
+	.benefit-item {
+		flex-direction: column;
+	}
+
+	.left-benefit a {
+		padding: 15px;
+	}
+
+	.certificat-slide .slick-slide img, .client-slide .slick-slide img {
+		width: 100%;
+	}
+
+	.arrowleft, .arrowright {
+		top: -25px;
+	}
+
+    #comments a {
+    	padding: 10px;
+    	text-transform: none; 
+    }
+
+    .no-info a {
+		padding: 16px 30px;
+	}
+
+	.clients-left a, .certificates-left a {
+		    padding: 16px 70px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 759px) {
+	.call {
+		align-items: center;
+	}
+
+	.obzor img {
+		display: none;
+	}
+
+	.main-left h1 {
+		font-size: 2rem;
+	}
+
+	.main-right .col-6 {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+
+	.main-right h3 {
+		font-size: 1.5rem;
+	}
+
+	.count-item {
+		margin-right: 15px;
+		font-size: 1.5rem;
+	}
+
+	.count-item:last-child {
+		margin: 0;
+	}
+
+	.right-link {
+		flex-direction: column;
+	}
+
+	.try {
+		width: 260px;
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	.main-left p {
+		margin-bottom: 50px;
+	}
+
+	.сloud {
+		position: absolute;
+		left: -40px;
+	}
+
+	.left-list img {
+	    position: absolute;
+	    left: -96px;
+	    width: 141%;
+	}
+
+	.left-list h2 {
+		font-size: 2rem;
+		margin-bottom: 60px;
+	}
+
+	.list-info {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+
+	.list-info img {
+		width: 100%;
+	}
+
+	.right-list strong {
+		font-size: 18px;
+	}
+
+	.right-list .try {
+		width: 245px;
+		text-align: center;
+	}
+
+	.line-container {
+		width: auto;
+	}
+
+	.count-item span {
+		font-size: 14px;
+	}
+
+	.line-menu img {
+		display: none;
+	}
+
+	.menu-item {
+		width: 90px !important;
+	}
+
+	.slider-nav > .slick-list > .slick-track {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.slide-left h2 {
+		font-size: 2rem;
+		padding-right: 0;
+	}
+
+	.slide-info h3 {
+		font-size: 30px;
+	}
+
+	.ipad {
+		display: none;
+	}
+	
+	.mytable {
+		margin-bottom: 25px !important;
+	}
+
+	.cost-link {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.cost-link a {
+		margin-bottom: 15px;
+	}
+
+	.benefit-item {
+		flex-direction: column;
+	}
+
+	.left-benefit a {
+		padding: 10px;
+		font-size: 12px;
+	}
+
+	.left-benefit h2 {
+		font-size: 26px;
+	}
+
+	.img-benefit {
+		display: none;
+	}
+
+	.clients-left a {
+		padding: 15px 40px;
+	}
+
+	#comments a {
+		text-decoration: underline;
+		background: none;
+		padding: 0;
+	}
+
+	.certificates-left a {
+		padding: 15px 30px;
+	}
+
+	#certificates {
+		padding-bottom: 50px;
+	}
+
+	.clients-left h2, .comments-left h2, .certificates-left h2 {
+	    font-size: 26px;
+	    margin-bottom: 20px;
+	}
+
+	.certificates-left strong {
+		font-size: 18px;
+	}
+
+	.clients-left span {
+		font-size: 18px;
+		padding-right: 0;
+	}
+
+	.arrowleft, .arrowright {
+		top: -25px;
+	}
+
+	#comments h3 {
+		font-size: 18px;
+		padding-right: 0;
+	}
+
+	div.table-responsive {
+		overflow-x: auto !important;
+	}
+
+
+
+
+}
+
+@media (max-width: 575px) {
+
+	body {
+	    width: 100%;
+	    height: 100%;
+	    background: #fff;
+	}
+
+	.obzor img {
+		display: none;
+	}
+
+	main, #list {
+		background: #22c3f3;
+	}
+
+	.logo {
+		flex-direction: column;
+	}
+
+	.count-item {
+		margin-right: 15px;
+		font-size: 1.5rem;
+	}
+
+	.count-item:last-child {
+		margin: 0;
+	}
+
+	.main-right .col-6 {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+
+	main .col-12:last-child, #list .col-12:last-child {
+		background: #fff;
+	}
+
+	.cloud-wrapper img {
+		display: none;
+	}
+
+	.call {
+		align-items: center;
+	}
+
+	.main-left h1 {
+		font-size: 2rem;
+	}
+
+	.main-left p {
+		margin-bottom: 20px;
+	}
+
+	.right-link {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.try {
+		width: 260px;
+		padding: 20px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.more {
+		margin-right: 0;
+	}
+
+	.main-info {
+		margin-bottom: 20px;
+	}
+
+	.main-info p {
+		padding-left: 50px;
+	}
+
+	.col-6:nth-child(2) > .main-info p {
+		padding-left: 55px;
+	}
+
+	.col-6:nth-child(3) > .main-info p {
+		padding-left: 20px;
+	}
+
+	.count-item span {
+		font-size: 16px;
+	}
+
+	.left-list img {
+		width: 100%;
+		position: relative;
+		left: 0;
+	}
+
+	.line-container {
+		width: auto;
+	}
+
+	.list-info {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+
+	.right-list .try {
+		width: 245px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.left-list h2 {
+		margin-bottom: 60px;
+	}
+
+	.line-menu img {
+		display: none;
+	}
+
+	#slid {
+		background: #22c3f3;
+	}
+
+	.slide-left h2 {
+		font-size: 2rem;
+		padding-right: 0;
+	}
+
+	.slider-nav > .slick-list > .slick-track {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.slide-info h3 {
+		font-size: 30px;
+	}
+
+	.ipad {
+		display: none;
+	}
+	
+	.mytable {
+		margin-bottom: 25px !important;
+	}
+
+	.cost-link {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.cost-link a {
+		margin-bottom: 15px;
+	}
+
+	.left-cost h2 {
+		color: #092740;
+		text-align: center;
+	}
+
+	.cost-link {
+		padding-right: 0;
+	}
+
+	.no-info a {
+		padding: 10px 20px;
+		margin-right: 0;
+	}
+
+	#benefit .container > .row > .col-12:first-child{
+		background: #22c3f3;
+		padding-bottom: 30px;
+	}
+
+	#clients .container > .row > .col-12:first-child, #comments .container > .row > .col-12:first-child, #certificates .container > .row > .col-12:first-child, footer {
+		background: #22c3f3;
+		padding-bottom: 50px;
+	}
+
+	.certificates-left a {
+		padding: 16px 70px;
+	}
+
+	.kolonka {
+		display: none;
+	}
+
+	footer {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.left-benefit h2 {
+		font-size: 30px;
+	}
+
+	.left-benefit a {
+		padding: 15px 40px;
+	}
+
+	.certificat-slide {
+		padding-left: 0;
+		margin-bottom: 50px;
+	}
+
+	.arrowleft {
+    	top: 35px;
+	    left: 15px;
+	}
+
+	.arrowright {
+    	top: 35px;
+	    right: 15px;
+	}
+
+	.certificat-slide .arrowleft {
+		top: 50%;
+	}
+
+	.certificat-slide .arrowright {
+		top: 50%;
+	}
+
+	.client-slide .slick-slide img {
+		margin: 0 auto;
+	}
+
+	#comments a {
+		padding: 16px 5px;
+		font-size: 12px;
+	}
+
+	.line-container {
+		display: none;
+	}
+
+	.certificat-slide .slick-slide img {
+		width: 100%;
+	}
+
+	div.table-responsive {
+		overflow-x: auto;
+	}
+
+	div.modal-footer img {
+		top: 10px;
+		right: 10px;
+	}
+}
+
+
+@media (min-width: 993px) and (max-width: 1199px) {
+	.line-menu img {
+		display: none;
+	}
+
+	.menu-item {
+		width: 90px !important;
+	}
+
+	.slider-nav > .slick-list > .slick-track {
+		display: flex;
+		justify-content: space-between;
+		width: auto !important;
+	}
+
+	.slide-left h2 {
+		font-size: 2rem;
+	}
+
+	.slide-info h3 {
+		font-size: 32px;
+	}
+
+	.left-list img {
+		width: 100%;
+		position: relative;
+		left: 0;
+	}
+
+	.mytable {
+		margin-left: 16px;
+	}
+
+	.certificat-slide .slick-slide img, .client-slide .slick-slide img {
+		width: 100%;
+	}
+
+	.list-info {
+		flex-direction: column;
+	}
+
+	.count-item {
+		margin-right: 30px;
+	}
+}
+
